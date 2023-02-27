@@ -1,0 +1,96 @@
+Theme: Emotional Speech Recognition 
+
+1. Background:
+
+customer: Speakers, AI developers, Actors, Business analysts
+goal: Be able to understand human emotions based on voice.
+pains: The need for the presence of a person to perform these tasks, and, as a result, huge time costs.
+gains: Automation of the process and, as a result, the ability to reduce labor costs and time to complete the task.
+
+2. Value proposition:
+
+product: An AI that will perform this task, and an visual application to makes it easier to work with AI.
+alleviates: Automation of the process.
+advantages: Automation of the process and, as a result, the ability to reduce labor costs and time to complete the task.
+
+3. Objectives:
+
+* Emotion recognition accuracy.
+* Determination of a sufficient spectrum of emotions, without too deep analysis.
+* Program performance
+* Collecting a suitable database
+* Multilingual and multiplatform
+
+4. Solution:
+
+core features: ML service that will recognize correct emotion of speaker; User feedback process for incorrectly classified content.
+integrations: Categorized content will be sent to the UI service to be displayed.
+alternatives: 
+constraints: Probably low accuracy of recognition.
+out-of-scope:
+
+5. Feasibility:
+
+Lack of datasets for multilingualism.
+
+6. Data:
+
+training: Datasets, from https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio.
+production: Data provided by customers.
+
+7. Evaluation:
+
+Offline evaluation: We will take some of the data from the dataset to evaluate the performance of the model.
+Online evaluation: Allow users to report misclassified content by our model.
+
+8. Modeling: 
+
+Use some model from https://paperswithcode.com/task/speech-emotion-recognition.
+
+9. Feedback: 
+
+Allow users to report misclassified content by our model.
+
+10. Team: 
+
+product: Product managers, Executives
+
+system design:
+
+Data collectors: Collect the necessary data and label it. 
+Machine learner: Develops the ML model.
+Designer: Designs UX/UI for the application.
+Programmer: Develops the application.
+Testers: Test the application before release.
+
+project: Team leader, Project manager
+
+11. Deliverables:
+
+Objective			Priority	Release		Status
+Create an English emotion       High            v1 
+recognition algorithm and 
+application for easy access.
+
+Deliverable	Contributors	   Dependencies		Acceptance criteria	Status		Timelines
+
+Labeled         Data collectors,   Unlabeled data       Valid dataset           In-progress     2 weeks
+dataset for     labeling team
+training
+
+Trained model   Machine Learner    Labeled dataset      Evoluation results      In-progress     1 week
+
+Design of
+the application Designer           Information about    Modern comfortable      In-progress     1 week
+                                   the project          design
+
+Application     Programmer,        UX/UI design         Working application     In-progress     1.5 week
+		Machine learner
+
+Testing         Testers            Application          Positive ratings        In-progress     1 week
+							and a minimum 
+							number of bugs
+
+Production      Product managers,  Tested application   Release of the		In-progress     2 weeks
+		Advertisers				application to
+							production

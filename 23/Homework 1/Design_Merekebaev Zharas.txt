@@ -1,0 +1,91 @@
+Design
+
+Product
+
+1. Overview
+Today we'll talk about the Speech Emotion Recognition(SER). In the future we will discuss how it will help the speakers.
+And we also gonna talk about what it is and how it will be useful. Human speech contains several features that the listener interprets to unpack the rich information transmitted by the speaker. 
+The speaker also inadvertently shares tone, energy, speed, and other acoustic properties, which helps capture the subtext or intention and literal words.
+
+2. Background
+customer: speakers
+goal: speakers can improving their performances, it means that they can insights on their emotinal expressions
+pains: limit of recognizing emotions in different languages
+gains: it will make it easier to select the appropriate tone of voice when speaking to an audience
+
+3. Value proposition
+product: we need to create a product that will further help the speaker for his goals and achievements
+alleviates: improve the model from depending on the pains
+advantages: if the client (speaker) likes it, then in the future it will be in the interests of other clients
+
+4. Objectives
+1. detecting emotions in speech with high accuracy
+2. improving customer experience through personalized interactions
+3. enhancing human-machine interactions
+4. collect the necessary data
+
+5. Solution
+Core features: the speaker, while working with the machine, may notice that he does not detect a person's emotion, the solution to this will be the detection of a person's emotion
+Integrations: after the interaction between them, we will look at the customer experience and then there will be a solution to the processes of improving the machine
+Alternatives: 
+Constraints: a certain number of speech emotions after investigating the problem of detecting emotions
+Out-of-scope: 
+
+6. Feasibility
+if we have data and we have found problems that need to be solved, then we can say there will be no problems for implementation
+------------------------------------------------
+
+Engineering
+
+1. Data
+these are websites for datasets: https://www.kaggle.com/, https://datasetsearch.research.google.com/, 
+
+Labeling:
+process of labeling data:
+1) categorizing data
+2) training 
+3) validation
+
+2. Evaluation
+
+Metrics:
+classification metrics(such as accuracy, precision, recall, f1-score)
+CV metrics(PSNR, SSIM)
+statistical metrics(correlation)
+
+Offline evaluation:
+We have a confusion matrix that gives us about models beyond what the metrics can provide to us.
+Coarse-gained can involved computing classification metrics.
+
+Online evaluation:
+Fine-grained metrics at the categorical feature levels.
+Continious can give to us difference between predicted and ground-truth values is above some percentage.
+
+
+3. Modeling
+
+Feedback:
+After interacting with the classification, customers contact us on the way back if there are problems or about good things.
+---------------
+
+Project Management0
+
+1. Team
+Product: product manager
+
+System desgin:
+Data engineer: responsible for the data dependencies, which include robust workflows to continually deliver the data and ensuring that it’s properly validated and ready for downstream applications.
+Machine learning: develop the probabilistic systems with appropriate evaluation.
+DevOps: deploy the application and help autoscale based on traffic.
+Accessibility: help educate the community for the new rollouts and to assist with decisions around sensitive issues.
+
+Project: the members responsible for iterative engagement with the product and engineering teams to ensure that the right product is being built.
+
+2. Deliverables
+Deliverable: Labeled dataset for training, Trained model with high precision
+Contributors: data engineer, Data scientist, ML engineer, DevOps engineer
+Dependencies: Labeled dataset
+Acceptance criteria: Validation of ground-truth labels
+Status: In-progress
+
+3. Timeline

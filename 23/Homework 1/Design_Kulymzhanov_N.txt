@@ -1,0 +1,64 @@
+Project Title: Speech emotion recognition
+
+---Product Management---
+
+--Overview--
+
+-Background-
+
+Customer: people with limited abilities, call centers
+Goal: to make life easier for people, through improving the quality of life
+Pains: noise problems, fuzziness of data, lack of tagging data
+Gains: useful tool for emotion recognition
+
+-Value proposition-
+
+Product: tool that can detect and recognize emotion in speech
+Alleviates: making life easier and simplier
+Advantages: it reduces cost and error, and solves inefficiencies and reduces wasted time.
+
+-Objectives-
+
+1. Collect qualitative data quantitatively
+2. Preprocess and classify them
+3. Get good points at testing
+4. Give to people for using
+
+--Solution--
+
+Core features:
+1. ML Product that can recognize and classify speeches by emotion
+2. Using feedback for fix incorrectly classified content
+
+Integration:
+1. Built algorithm will be integrated to UI
+
+Alternative:
+1. Probably can collect and store data( may be not :) )
+
+Constraint:
+1. Only emotion recognizing, and only in speech
+2. Can not detect emotions in text or video
+
+-Feasibility-
+
+1. I don't have a team
+2. I dont't have money for project
+3. But I can found some data ;)
+
+---Engineering---
+
+--Data--
+
+1. Train algorithm using preprocessed and clean data by inputing them
+2. Making notes after every change
+
+3. Using modern solutions for ML
+4. Using some packages or libraries that can ease our creating process
+
+(Labeling)
+.Prepare data for inputing
+
+--Evaluation--
+Probably we may get bad accuracy and metrics, or more qualitative, and every
+step we will optimize and upgrade our model.
